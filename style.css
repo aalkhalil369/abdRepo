@@ -1,59 +1,44 @@
 :root {
 
-  /**** header and sidebar and my logo >>> background ******/
+  /** header and sidebar and my logo >>> background **/
   --c1: #111b21;
-  /*خلفية السايدبار والهيدر*/
-  /* 111B21 */
-  /**** main >>> background *********/
-  --main_bg: #ffffff;
-  /*خلفية المحتوى بالوسط*/
-  /* 222E35 */
+
+  /** main >>> background ***/
+  --main_bg: #0B141A;
 
   --c17: #202C33;
 
-  /**** text >>> color *****/
+  /** text >>> color ***/
   --c6: #ffffff;
-  /**** user name color >>>  text *****/
+  /** user name color >>>  text ***/
   --c7: #e4e4e4;
-  /***** balance color>>> text ******/
+  /** balance color>>> text ***/
   --c10: #ffffff;
-  /***** header and sidebar and my logo >>> text ******/
+  /** header and sidebar and my logo >>> text ***/
   --c2: #ffffff;
-  /****** sidebar and logo >>>> text *******/
+  /** sidebar and logo >>>> text ***/
   --c14: #ffffff;
 
-
-
-  /***** sidebar >>> hover ******/
+  /** sidebar >>> hover ***/
   --c3: #6cdbeb;
 
-  /**** sidebar >>> button borders ******/
+  /** sidebar >>> button borders **/
   --c4: white(242, 242, 242);
 
-
-
-  /***** single cards >>> background ****/
+  /** single cards >>> background ***/
   --c8: #005C4B;
 
-
-
-
-
-  /***** single cards  >>> borders ******/
+  /** single cards  >>> borders ***/
   --c9: #394853;
 
-  /***** single cards and balance and account ID >>> hover ******/
-  /* --c11: rgba(255, 255, 255, 0.844); */
-
-  /***** banks >>> background ******/
+  /** banks >>> background ***/
   --c12: #394853;
 
-  /***** whatsapp color for header just on phone >>> background ******/
+  /** whatsapp color for header just on phone >>> background ***/
   --c13: #ffffff;
 
 
 }
-
 body {
   background-color: var(--c1) !important;
 }
