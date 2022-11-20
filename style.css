@@ -259,6 +259,13 @@ main .notes {
   font-size: 0.9rem;
   color: var(--c6);
 }
+.notes p a {
+  color: #ffffff;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(5, 186, 153);
+}
 
 .cards {
   display: grid;
